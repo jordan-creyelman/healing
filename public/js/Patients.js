@@ -6,7 +6,7 @@ export class Patients{
         this.poche = poche;
         this.état = état;
         this.seDeplacer = (lieu) => {
-           console.log(this.nom +"je me déplace à "+ lieu);
+           console.log(this.nom +" je me déplace à "+ lieu);
         }
 
         this.payer = (pharmacie,payer) => {

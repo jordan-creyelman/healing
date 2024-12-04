@@ -27,13 +27,13 @@ doctor.agenda.push(semicolon);
 
 
 for (let i = 0;i < doctor.agenda.length;i++){
-    console.log(doctor.agenda)
+    
     doctor.agenda[i].seDeplacer("Hopital");
     doctor.agenda[i].poche = doctor.diagnostique(doctor.agenda[i].maladie);
     doctor.agenda[i].seDeplacer("Pharmacie");
     doctor.agenda[i].poche=doctor.agenda[i].payer(Pharmacie,Pharmacie.APayer(doctor.agenda[i].poche));
     doctor.agenda[i].seSoigner()
-    doctor.agenda[i].splice(1,1)
+    
     
 }
 
